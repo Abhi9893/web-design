@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background:white;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    position: fixed;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: cursive;
+    padding: 0 10px;
+    color: rgb(255, 0, 191);
+}
+.menu a:hover{
+    background: rgb(63, 62, 63);
+}
+
+.banner{
+    background: url(../image/about-foodpanda-1920x539.jpeg);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+}
+
+.about{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 100px 150px;
+}
+
+.about h2{
+    font-size: 55px;
+    font-family: monospace;
+    margin-bottom: 10px;
+    text-shadow: 6px 8px 9px rgb(187, 149, 53);
+    letter-spacing: 2px;
+color: #fff;
+}
+
+p{
+    letter-spacing: 0.9px;
+    line-height: 50px;
+    font-family: serif;
+    word-spacing: 3px;
+    margin-bottom: 35px;
+    color: #fff;
+}
+
+.about a{
+    background: red;
+    padding: 12px 25px;
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 7px;
+    font-size: 19px;
+}
+
+.about a:hover{
+    background: linear-gradient(to right , wheat , goldenrod , yellow);
+}
+
+.press{
+    background:linear-gradient(to right,rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../image/download\ \(1\).jpeg);
+    padding: 12px 25px;
+    text-align: 130px 200px;
+    width: 100%;
+    height: 400px;
+     background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.press{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 100px 250px;
+    
+
+}
+
+.press a:hover{
+    background: linear-gradient(to right , wheat , goldenrod , yellow);
+}
+
+.team{
+    background: url(../image/restaurant-manager-his-staff-kitchen-interacting-head-chef-commercial-kitchen_109285-2418.avif);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.team {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 100px 150px;
+
+    
+}
+.team a:hover{
+    background: linear-gradient(to right , wheat , goldenrod , yellow);
+}
+.contact{
+    background: red;
+    width: 100%;
+    height: 300px;
+    
+
+}
+.contact{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 80px 150px;
+
+
+}
+.contact  a:hover{
+    background: linear-gradient(to right , wheat , goldenrod , yellow);
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: cursive;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: #121b25;
+}
+footer{
+    padding: 80px 5% 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,auto));
+    gap: 3.5rem;
+    background: #1a242f;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 1;
+}
+.footer-content h4{
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+}
+.footer-content li{
+    margin-bottom: 16px;
+}
+.footer-content li a{
+    display: block;
+    color: #d6d6d6;
+    font-size: 15px;
+    font-weight: 400;
+    /* transition: all .40s ease; */
+}
+.footer-content li a:hover{
+    /*transform: translatey(-3px) translatex(-5px);*/
+    color: #fff;
+}
+.footer-content p{
+    color: #d6d6d6;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px;
+}
